@@ -3584,28 +3584,7 @@ input, select, textarea {
 		text-align: center;
 	}
 
-	#banner-side {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
-		-moz-flex-direction: column;
-		-webkit-flex-direction: column;
-		-ms-flex-direction: column;
-		flex-direction: column;
-		-moz-justify-content: center;
-		-webkit-justify-content: center;
-		-ms-justify-content: center;
-		justify-content: center;
-		cursor: default;
-		height: 100vh;
-		min-height: 30em;
-		overflow: hidden;
-		position: relative;
-		text-align: center;
-	}
-
-		#banner h2, #banner-side h2 {
+		#banner h2 {
 			-moz-transform: scale(1);
 			-webkit-transform: scale(1);
 			-ms-transform: scale(1);
@@ -3622,7 +3601,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-			#banner h2:before, #banner h2:after, #banner-side h2:before, #banner-side h2:after {
+			#banner h2:before, #banner h2:after {
 				-moz-transition: width 0.85s ease;
 				-webkit-transition: width 0.85s ease;
 				-ms-transition: width 0.85s ease;
@@ -3639,26 +3618,26 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			#banner h2:before, #banner-side h2:before {
+			#banner h2:before {
 				top: 0;
 				left: 0;
 			}
 
-			#banner h2:after, #banner-side h2:after {
+			#banner h2:after {
 				bottom: 0;
 				right: 0;
 			}
 
-		#banner p, #banner-side p {
+		#banner p {
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
 		}
 
-			#banner p a, #banner-side p a {
+			#banner p a {
 				color: inherit;
 			}
 
-		#banner .more, #banner-side .more {
+		#banner .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
 			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
@@ -3689,7 +3668,7 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-			#banner .more:after, #banner-side .more:after {
+			#banner .more:after {
 				background-image: url("images/arrow.svg");
 				background-position: center;
 				background-repeat: no-repeat;
@@ -3704,7 +3683,7 @@ input, select, textarea {
 				width: 1.5em;
 			}
 
-		#banner:after, #banner-side:after {
+		#banner:after {
 			pointer-events: none;
 			-moz-transition: opacity 3s ease-in-out;
 			-webkit-transition: opacity 3s ease-in-out;
@@ -4006,10 +3985,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/pic02.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/pic02.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/pic02.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/pic02.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
